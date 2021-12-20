@@ -1,499 +1,539 @@
 @font-face {
-    font-family: 'tahomaregular';
-    src: url('fonts/fonts/billy.eot');
-    src: url('fonts/fonts/billy.eot?#iefix') format('embedded-opentype'),
-         url('fonts/fonts/billy.woff') format('woff'),
-         url('fonts/fonts/billy.ttf') format('truetype'),
-         url('fonts/fonts/billy.svg#tahomaregular') format('svg');
-    font-weight: 900;
-    font-style: normal;
-
+  font-family: 'tahomaregular';
+  src: url('fonts/fonts/billy.eot');
+  src: url('fonts/fonts/billy.eot?#iefix') format('embedded-opentype'),
+    url('fonts/fonts/billy.woff') format('woff'),
+    url('fonts/fonts/billy.ttf') format('truetype'),
+    url('fonts/fonts/billy.svg#tahomaregular') format('svg');
+  font-weight: 900;
+  font-style: normal;
 }
 @font-face {
   font-family: 'yekan';
-  src: url('fonts/Byekan.eot?#') format('eot'),  /* IE6–8 */
-       url('fonts/Byekan.woff') format('woff'),      /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-       url('fonts/Byekan.ttf') format('truetype'),
-     url('fonts/Byekan.svg#font') format('svg');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+  src: url('fonts/Byekan.eot?#') format('eot'),
+    /* IE6–8 */ url('fonts/Byekan.woff') format('woff'),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('fonts/Byekan.ttf')
+      format('truetype'),
+    url('fonts/Byekan.svg#font') format('svg'); /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
 }
 @font-face {
   font-family: 'cuprum';
-  src: url('fonts/Cuprum-Regular.eot?#') format('eot'),  /* IE6–8 */
-       url('fonts/Cuprum-Regular.woff') format('woff'),      /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-       url('fonts/Cuprum-Regular.ttf') format('truetype'),
-     url('fonts/Cuprum-Regular.svg#font') format('svg');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+  src: url('fonts/Cuprum-Regular.eot?#') format('eot'),
+    /* IE6–8 */ url('fonts/Cuprum-Regular.woff') format('woff'),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('fonts/Cuprum-Regular.ttf')
+      format('truetype'),
+    url('fonts/Cuprum-Regular.svg#font') format('svg'); /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
 }
 @font-face {
   font-family: 'cuprumBold';
-  src: url('fonts/Cuprum-SemiBold.eot?#') format('eot'),  /* IE6–8 */
-       url('fonts/Cuprum-SemiBold.woff') format('woff'),      /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-       url('fonts/Cuprum-SemiBold.ttf') format('truetype'),
-     url('fonts/Cuprum-SemiBold.svg#font') format('svg');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+  src: url('fonts/Cuprum-SemiBold.eot?#') format('eot'),
+    /* IE6–8 */ url('fonts/Cuprum-SemiBold.woff') format('woff'),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('fonts/Cuprum-SemiBold.ttf')
+      format('truetype'),
+    url('fonts/Cuprum-SemiBold.svg#font') format('svg'); /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
 }
 @font-face {
   font-family: 'piedra';
-  src: url('fonts/Piedra-Regular.eot?#') format('eot'),  /* IE6–8 */
-       url('fonts/Piedra-Regular.woff') format('woff'),      /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-       url('fonts/Piedra-Regular.ttf') format('truetype'),
-     url('fonts/Piedra-Regular.svg#font') format('svg');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+  src: url('fonts/Piedra-Regular.eot?#') format('eot'),
+    /* IE6–8 */ url('fonts/Piedra-Regular.woff') format('woff'),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('fonts/Piedra-Regular.ttf')
+      format('truetype'),
+    url('fonts/Piedra-Regular.svg#font') format('svg'); /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
 }
 
-body{
-	margin: 0 !important;
-	font-family: "cuprum"!important;
-	font-size:1.2rem;
-
-
+:root {
+  --primary: #c97b63;
+  --primary-hue1: #ffddc1;
 }
-.logo{
-	/*font-family: "cumprumBold"!important;*/
-	font-size:1.5rem;
-	color: #FFDDC1 !important;
+
+body {
+  margin: 0 !important;
+  font-family: 'cuprum' !important;
+  font-size: 1.2rem;
+}
+.logo {
+  font-size: 1.5rem;
 }
 .logocursor:hover {
-	color: #C97B63;
-	cursor: pointer;
-	text-decoration: none;
+  /* color: #c97b63; */
+  cursor: pointer;
+  text-decoration: none;
 }
-.logocursor{
-	color: white;
-	text-decoration: none;
+.logocursor {
+  color: var(--primary-hue1) !important;
+  text-decoration: none;
 }
-.IntroBlack{
-	margin-top: 30px;
-	font-size: 1.5rem;
-}
-.blackIntro{
-	
-	color: white;
-	padding-top:20px!important;
-	font-size: 1.2rem;
-}
-.btn-secondary{
-	color: #102027!important;
-    background-color: #FFAB91!important;
-    border-color: #707070!important;
-    border: dashed 2px!important;
-    border-radius: 0!important;
-    margin-bottom: 50px!important;
-}
-.TitleTop{
-	margin-top: 15px;
-	font-size: 2.3rem;
-	font-weight:bold!important;
-}
-.TitleTopAdmission{
-	margin-top: 15px;
-	font-size: 2.3rem;
-	font-weight:bold!important;
-	color: #C97B63;
-}
-.footGray{
-	background-color: #37464F;
-	min-height: 85px;
-	text-align: center;
-}
-.introPro{
-	
-	font-size: 35px;
-	color: #FFAB91;
-	font-weight: bold;
-}
-.IntroEx{
-	
-	font-size: 16px;
-	color: #FFDDC1;
-	font-style: italic;
-	
-}
-.goal{
-	font-family: "piedra"!important;
-	font-size: 30px;
-	color:#C97B63!important;
-	text-align: center;
-    padding-top: 30px;
 
+.intro {
+  color: var(--primary-hue1) !important;
+  font-weight: thin;
+  background-color: #37474f;
+  padding-top: 80px;
+  margin-bottom: 20px;
 }
-.ImgProcedure{
-	width: 70%;
-	margin-top: 30px;
-	margin-bottom: 100px;
 
+.intro-image {
+  --width: 250px;
+  width: var(--width);
+  height: var(--width);
+  object-fit: cover;
+  margin-left: 1rem;
+  border-radius: 999rem;
+  border: 3px solid var(--primary-hue1);
+}
 
+.btn-secondary {
+  color: #102027 !important;
+  background-color: #ffab91 !important;
+  border-color: #707070 !important;
+  border: dashed 2px !important;
+  border-radius: 0 !important;
+  margin-bottom: 50px !important;
 }
-.GoalPadd{
-	
-	padding:50px;
-	color: white;
-	margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-    font-size: 20px;
-
+.TitleTop {
+  margin-top: 15px;
+  font-size: 2.3rem;
+  font-weight: bold !important;
 }
-.TaksTitle{
-	color: #C97B63;
-    font-size: 20px;
-    font-weight: bold;
-    padding-top:30px;
+.TitleTopAdmission {
+  margin-top: 15px;
+  font-size: 2.3rem;
+  font-weight: bold !important;
+  color: #c97b63;
 }
-.Overview{
-	width: 50%;
-    height: 250px;
-    background-color: #FFFFFF;
-    color: #37464F;
-    margin: 0px auto;
-   font-weight: bold;
-    text-align: center;
-    font-size: 20px;
-    padding-top: 50px;
-    margin-bottom: 100px;
-
+.footGray {
+  background-color: #37464f;
+  min-height: 85px;
+  text-align: center;
 }
-.good{
-	width:100%;
-	text-align: justify;
-	margin-bottom: 50px;
-	margin-top:50px;
-	color: white;
-
-
+.introPro {
+  font-size: 35px;
+  color: #ffab91;
+  font-weight: bold;
 }
-.arrow{
-	width: 30px;
-    /* padding-right: 40px; */
-    margin-right: 20px;
+.IntroEx {
+  font-size: 16px;
+  color: #ffddc1;
+  font-style: italic;
 }
-.GoodTitle{
-	
-	width: 100%;
-	height: 50px;
-	background-color: rgba(112, 112, 112, 0.48);
-	text-align: center;
-	font-weight: bold;
-	font-size: 22px;
+.goal {
+  font-family: 'piedra' !important;
+  font-size: 30px;
+  color: #c97b63 !important;
+  text-align: center;
+  padding-top: 30px;
 }
-.BadTitle{
-	background-color: rgba(201, 123, 99, 0.48);
-	width: 100%;
-	height: 50px;
-	text-align: center;
-	font-weight: bold;
-	font-size: 22px;
+.ImgProcedure {
+  width: 70%;
+  margin-top: 30px;
+  margin-bottom: 100px;
 }
-.bad{
-	width:100%;
-	text-align: justify;
-	margin-bottom: 50px;
-	margin-top:50px;
-	color: white;
+.GoalPadd {
+  padding: 50px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  font-size: 20px;
 }
-.goalOverview{
-	text-align: center;
-	font-weight: bold;
-	font-size:22px;
-	color:white;
+.TaksTitle {
+  color: #c97b63;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 30px;
 }
-.metrics{
-	border-top: 2px solid rgba(201, 123, 99, 0.48)!important;
-	margin-bottom: 100px;
+.Overview {
+  width: 50%;
+  height: 250px;
+  background-color: #ffffff;
+  color: #37464f;
+  margin: 0px auto;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 50px;
+  margin-bottom: 100px;
 }
-.metricscontent{
-	padding-top:60px;
+.good {
+  width: 100%;
+  text-align: justify;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  color: white;
 }
-.tableresult{
-	width: 100%;
-	border: 1px solid #37464F;
+.arrow {
+  width: 30px;
+  /* padding-right: 40px; */
+  margin-right: 20px;
+}
+.GoodTitle {
+  width: 100%;
+  height: 50px;
+  background-color: rgba(112, 112, 112, 0.48);
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+}
+.BadTitle {
+  background-color: rgba(201, 123, 99, 0.48);
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+}
+.bad {
+  width: 100%;
+  text-align: justify;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  color: white;
+}
+.goalOverview {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+}
+.metrics {
+  border-top: 2px solid rgba(201, 123, 99, 0.48) !important;
+  margin-bottom: 100px;
+}
+.metricscontent {
+  padding-top: 60px;
+}
+.tableresult {
+  width: 100%;
+  border: 1px solid #37464f;
 }
 .tableresult tr {
-	
-	height: 35px;
-	text-align: center;
-
+  height: 35px;
+  text-align: center;
 }
-.tableresult tr{
-	border: 1px solid #37464F;
+.tableresult tr {
+  border: 1px solid #37464f;
 }
-.tableresult th{
-	border: 1px solid #37464F;
-	color: #C97B63;
+.tableresult th {
+  border: 1px solid #37464f;
+  color: #c97b63;
 }
-.tableresult td{
-	border: 1px solid #37464F;
-	height: 60px;
-	font-size: 1.2rem;
+.tableresult td {
+  border: 1px solid #37464f;
+  height: 60px;
+  font-size: 1.2rem;
 }
-.LogoFoot{
-	width: 21px;
-    margin: 10px;
-    cursor: pointer;
+.LogoFoot {
+  width: 21px;
+  margin: 10px;
+  cursor: pointer;
 }
-.LogoLinkedin{
-	width: 20px;
-    margin-top: -5px;
-    cursor: pointer;
+.LogoLinkedin {
+  width: 20px;
+  margin-top: -5px;
+  cursor: pointer;
 }
-.BoldIntro{
-	font-size: 1.2rem;
-	color: #C97B63!important;
+.BoldIntro {
+  font-size: 1.2rem;
+  color: #c97b63 !important;
 }
-.BackGoal{
-	background-color: #37474F;
-	text-align: center justify;
-
+.BackGoal {
+  background-color: #37474f;
+  text-align: center justify;
 }
-.textFoot{
-	color: #FFDDC1;
-	padding: 0;
-    margin: 0;
-    font-size: 12px;
-
+.textFoot {
+  color: #ffddc1;
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
 }
 
-.TitleUX{
-	color: #C97B63;
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin:0!important;
+.TitleUX,
+.section-title {
+  color: var(--primary);
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 0 !important;
 }
-.SubTitleUX{
-	font-size: 1.1rem;
-	margin-left:55px;
+.SubTitleUX,
+.section-subtitle {
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding-top: 0.65rem;
 }
-.UXPhoto{
-	width: 300px;
-	height: 300px;
-	margin-left: 50px;
-}
-.borderTop{
-	border-top:2px solid rgba(201, 123, 99, 0.48)!important;
-	margin-top: 30px;
-	padding-top: 30px;
-}
-.read{
-	color: #102027!important;
-    background-color: #FFAB91!important;
-    border-radius: 0!important;
-    margin-left: 50px;
-    border: 0px !important;
-    width:125px;
-    margin-bottom: 0px!important;
-}
-.ScenarioWhite{
-	margin-top: 50px;
-}
-.ulbull{
-	list-style-type: circle;
-	margin-left: 30px;
-}
-.ulbullAdmi{
-	margin-left: 0;
-	list-style-color:#C97B63;
-}
-.ulbullAdmiTable{
-	margin-left: 0;
-	list-style-color:#C97B63;
-	line-height: 2rem;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.ScenariosBlack{
-	background-color: #37464F;
-    color: #FFAB91;
-    font-size: 20px;
-    text-align: center;
-    padding: 20px;
-    min-height: 260px;
-}
-.TextScenario{
-	text-align: justify;
-    color: #FFDDC1;
-    font-size: 1rem;
-    padding: 30px;
-}
-.ulbull li{
-	margin-top: 10px;
-}
-.MenuePad{
-	padding-right: 2.5rem!important;
-}
-.navbar-light{
-	background-color: #37474F!important;
-}
-.bg-light1{
-	background-color: #37474F!important;
-	margin-top: 30px;
-}
-.PariaImage{
-	width: 200px;
-    height: 200px;
-    margin-top: 30px;
 
+.section-date {
+  color: var(--primary);
+  font-style: italic;
+  color: var(--primary);
+  font-size: 1.2rem;
 }
-.painBlack{
-	border: 1px solid #707070;
-	margin-top:50px;
-	
-}
-.PainInside{
-	min-height: 60px;
-    background-color: #37464F;
-    color: #FFAB91;
-    border: 0px;
-    font-size: 20px;
-    text-align: left;
-    padding: 20px 0px 20px 70px;
-}
-.hello{
-	font-size: 1.8rem;
-	margin-bottom: 0px!important;
-	font-style: bold;
-	font-weight: bold;
-}
-.hello1{
-	font-size: 1.4rem;
-	margin-bottom: 0px!important;
-	font-style: bold;
-	font-weight: bold;
-}
-.Des{
-	font-size: 1.2rem;
-	margin-top: 10px;
-	margin-left: 13px;
-	margin-bottom: 30px;
-}
-.education{
-	margin-top: 20px;
-}
-.education1{
-	margin-bottom:20px;
-	margin-top: 20px;
-}
-.educationDetail{
-	font-size: 1.5rem;
-	font-weight: 500;
-	margin-top: 70px;
-}
-.educationUni{
-	font-size: 1.3rem;
-	font-weight: 500;
-}
-.projectPic{
-	width: 73%;
-	margin-top: 50px;
-}
-.pro{
-	width: 100%;
-}
-.tableimg{
-	width: 50%;
-}
-.Intro{
-	font-size: 1.5rem;
-	font-weight: 600;
-	margin-top: 50px;
-}
-.top{
-	background-color: #37474F;
-}
-.eduBack{
 
-	padding-bottom: 50px;
+.UXPhoto {
+  width: 300px;
+  height: 300px;
+  margin-left: 50px;
 }
-.LogoUX{
-	width:35px;
-	margin:10px;
+.borderTop {
+  border-top: 2px solid rgba(201, 123, 99, 0.48) !important;
+  margin-top: 30px;
+  padding-top: 30px;
 }
-.exBack{
-	background-color: #E3F2F3;
+.read {
+  color: #102027 !important;
+  background-color: #ffab91 !important;
+  border-radius: 0 !important;
+  margin-left: 50px;
+  border: 0px !important;
+  width: 125px;
+  margin-bottom: 0px !important;
+}
 
+.call-to-action {
+  color: #102027 !important;
+  background-color: #ffab91 !important;
+  border-radius: 0 !important;
+  border: 0px !important;
+  margin-left: 35px;
+  padding: 0.5rem 2rem;
 }
-.proBack{
-	background-color: #F7F7F7;
-	margin-top:70px;
 
+.call-to-action:active {
+  outline: 2px black;
 }
-.skillBack{
-	background-color: #E3F2F3;
-	margin-top: 50px;
-	padding-bottom: 50px;
-}
-.imgIcon{
-	width: 60px;
-	margin-top: 30px;
-}
-.skillDetail{
-	padding-top: 30px;
-	font-weight: 600;
-	font-size: 1.1rem;
-}
-.skillDetail1{
-	margin-top: 10px;
-	font-weight: 600;
-	font-size: 1.1rem;
-}
-.awardsLi{
-	font-size: 1.2rem;
-	padding-top: 20px;
-}
-.connect{
-	
-	margin-top: 20px;
-}
-.contactTop{
-	background-color: #E3F2F3;
-	margin-top: 70px;
-}
-.contactMe{
-	padding-top: 70px;
-	padding-bottom: 70px;
-}
-.imgmail{
-	width: 20px;
-}
-.iconLink{
-	width: 65px;
-	padding-top: 50px;
-	padding-left: 20px;
-}
-.iconLink1{
-	width: 55px;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	padding-left: 20px;
-}
-.infoAll{
-	padding-top: 50px;
-}
-.infoPro{
-	font-weight: 600;
-	font-size: 1.4rem;
-}
-.ImgPro{
-	padding-top: 50px;
-	width: 100%;
-}
-.DesPro{
-	padding-left: 100px;
-	padding-top: 50px;
-}
-.moodImg{
-	width: 73%;
-	padding-top: 20px;
-	padding-bottom: 20px;
 
+.ScenarioWhite {
+  margin-top: 50px;
+}
+.ulbull,
+.section-list {
+  list-style-type: none;
+  margin-left: 0;
+  /* padding-left: 1rem; */
+  /* margin-left: 30px; */
+}
+.ulbullAdmi {
+  margin-left: 0;
+  list-style-color: #c97b63;
+}
+.ulbullAdmiTable {
+  margin-left: 0;
+  list-style-color: #c97b63;
+  line-height: 2rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.ScenariosBlack {
+  background-color: #37464f;
+  color: #ffab91;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  min-height: 260px;
+}
+.TextScenario {
+  text-align: justify;
+  color: #ffddc1;
+  font-size: 1rem;
+  padding: 30px;
+}
+.ulbull li,
+.section-list li {
+  margin-top: 10px;
+  padding: 0;
+  position: relative;
+}
+
+.section-list li::before {
+  width: 9px;
+  height: 9px;
+  border-radius: 999rem;
+  content: ' '; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  background: var(--primary); /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  /* margin-right: 1rem; */
+  vertical-align: center;
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  /* margin-bottom: 5px; */
+  position: absolute;
+  left: -2rem;
+  top: 0.5rem;
+}
+
+.MenuePad {
+  padding-right: 2.5rem !important;
+}
+.navbar-light {
+  background-color: #37474f !important;
+}
+.bg-light1 {
+  background-color: #37474f !important;
+  margin-top: 30px;
+}
+.PariaImage {
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+}
+.painBlack {
+  border: 1px solid #707070;
+  margin-top: 50px;
+}
+.PainInside {
+  min-height: 60px;
+  background-color: #37464f;
+  color: #ffab91;
+  border: 0px;
+  font-size: 20px;
+  text-align: left;
+  padding: 20px 0px 20px 70px;
+}
+.hello {
+  font-size: 1.8rem;
+  margin-bottom: 0px !important;
+  font-style: bold;
+  font-weight: bold;
+}
+.hello1 {
+  font-size: 1.4rem;
+  margin-bottom: 0px !important;
+  font-style: bold;
+  font-weight: bold;
+}
+
+.education {
+  margin-top: 20px;
+}
+.education1 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.educationDetail {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 70px;
+}
+.educationUni {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.projectPic {
+  width: 73%;
+  margin-top: 50px;
+}
+.pro {
+  width: 100%;
+}
+.tableimg {
+  width: 50%;
+}
+/* .Intro {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 50px;
+}
+.top {
+  background-color: #37474f;
+} */
+.eduBack {
+  padding-bottom: 50px;
+}
+.LogoUX {
+  width: 35px;
+  margin-right: 10px;
+  /* margin: 10px; */
+}
+.exBack {
+  background-color: #e3f2f3;
+}
+.proBack {
+  background-color: #f7f7f7;
+  margin-top: 70px;
+}
+.skillBack {
+  background-color: #e3f2f3;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+.imgIcon {
+  width: 60px;
+  margin-top: 30px;
+}
+.skillDetail {
+  padding-top: 30px;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.skillDetail1 {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.awardsLi {
+  font-size: 1.2rem;
+  padding-top: 20px;
+}
+.connect {
+  margin-top: 20px;
+}
+.contactTop {
+  background-color: #e3f2f3;
+  margin-top: 70px;
+}
+.contactMe {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.imgmail {
+  width: 20px;
+}
+.iconLink {
+  width: 65px;
+  padding-top: 50px;
+  padding-left: 20px;
+}
+.iconLink1 {
+  width: 55px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+}
+.infoAll {
+  padding-top: 50px;
+}
+.infoPro {
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+.ImgPro {
+  padding-top: 50px;
+  width: 100%;
+}
+.DesPro {
+  padding-left: 100px;
+  padding-top: 50px;
+}
+.moodImg {
+  width: 73%;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 @media screen and (max-width: 768px) {
   .DesPro {
     padding-left: 0px;
   }
-  .right-right{
-  	text-align: right !important;
-  	width: 100% !important;
+  .right-right {
+    text-align: right !important;
+    width: 100% !important;
   }
-  .left-left{
-  	text-align: left !important;
-  	width: 100% !important;
+  .left-left {
+    text-align: left !important;
+    width: 100% !important;
   }
+}
+
+.master-photo {
+  border-radius: 999rem;
+  object-fit: cover;
+  box-shadow: 0 3px 4px 0px #838289;
 }
