@@ -1,70 +1,73 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Paria Majidi</title>
+    <link rel="stylesheet" type="text/css" href="fonts/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="style/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="fonts/fontsb.css" />
+    <link rel="stylesheet" type="text/css" href="fonts/fontsc.css" />
 
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Paria Majidi</title>
-    <link rel="stylesheet" type="text/css" href="fonts/fonts.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="style/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="fonts/fontsb.css">
-    <link rel="stylesheet" type="text/css" href="fonts/fontsc.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
 
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <script></script>
 
+    <script>
+      $(document).ready(function () {
+        $('a.eduLink').click(function () {
+          $('html, body').animate(
+            {
+              scrollTop: $('div.eduTop').offset().top,
+            },
+            1000
+          )
+        }),
+          $('a.exLink').click(function () {
+            $('html, body').animate(
+              {
+                scrollTop: $('div.exTop').offset().top,
+              },
+              1000
+            )
+          }),
+          $('a.proLink').click(function () {
+            $('html, body').animate(
+              {
+                scrollTop: $('div.proTop').offset().top,
+              },
+              1000
+            )
+          }),
+          $('a.skillLink').click(function () {
+            $('html, body').animate(
+              {
+                scrollTop: $('div.skillTop').offset().top,
+              },
+              1000
+            )
+          }),
+          $('a.contactLink').click(function () {
+            $('html, body').animate(
+              {
+                scrollTop: $('div.contactTop').offset().top,
+              },
+              1000
+            )
+          })
+      })
+    </script>
+  </head>
 
-<script>
-
-
-
-</script>
-
-<script>
-
-	
-  $(document).ready(function () {
-  $('a.eduLink').click(function() {
-  $('html, body').animate({
-    scrollTop: $("div.eduTop").offset().top
-  }, 1000)
-	}),
-
-  $('a.exLink').click(function() {
-  $('html, body').animate({
-    scrollTop: $("div.exTop").offset().top
-  }, 1000)
-	}),
-
-  $('a.proLink').click(function() {
-  $('html, body').animate({
-    scrollTop: $("div.proTop").offset().top
-  }, 1000)
-	}),
-
-  $('a.skillLink').click(function() {
-  $('html, body').animate({
-    scrollTop: $("div.skillTop").offset().top
-  }, 1000)
-	}),
-
-   $('a.contactLink').click(function() {
-  $('html, body').animate({
-    scrollTop: $("div.contactTop").offset().top
-  }, 1000)
-	})
-
-  });
-
-</script>
-</head>
-
-
-<body>
-<nav class="navbar navbar-expand-lg navbar-light">
-  <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="justify-content-center collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -78,33 +81,43 @@
       <a class="MenuePad nav-item nav-link contactLink">Contact</a>
     </div>
   </div> -->
-  <p class="logo"><a href="index.html" class="logocursor"> PARIA MAJIDI</a></p>
-</nav>
-<div class="top">
-<div class="container blackIntro">
-	<div class="row">
-		<div class="col-md-10 col-sm-0 col-xs-0">
-			<p class="IntroBlack">
-				HI, my name is Paria. </p>
-			<p>
-				A passionate UX designer and researcher with an engineering background.
-			</br>
-				As a master student at École de Technologie Supérieure (Montréal, Canada),
-				I am working on User Experience of multiple haptic devices. </br>
-				My interests primarily lie on Haptic User Experience, Human-Computer Interaction, User Experience and User-Cntered Design.
-			</p>
-		</div>
-		<div class="col-md-0 col-sm-0 col-xs-0">
-			
-		</div>
-		<div class="col-md-2 col-sm-2 col-xs-2">
-			<!-- <img src="images/paria1.png" class="PariaImage"> -->
-		</div>
-		<P class="text-justify Des text-center"><a role="button" class="btn btn-secondary" href="images/UX.pdf" download="PariaCV">Download My CV</a></P>
-
-	</div>
-</div>
-<!-- <p class="hello text-center">I'm Paria Majidi</p>
+      <p class="logo">
+        <a href="index.html" class="logocursor"> PARIA MAJIDI</a>
+      </p>
+    </nav>
+    <div class="top">
+      <div class="container blackIntro">
+        <div class="row">
+          <div class="col-md-10 col-sm-0 col-xs-0">
+            <p class="IntroBlack">HI, my name is Paria.</p>
+            <p>
+              A passionate UX designer and researcher with an engineering
+              background.
+              <br />
+              As a master student at École de Technologie Supérieure (Montréal,
+              Canada), I am working on User Experience of multiple haptic
+              devices. <br />
+              My interests primarily lie on Haptic User Experience,
+              Human-Computer Interaction, User Experience and User-Cntered
+              Design.
+            </p>
+          </div>
+          <div class="col-md-0 col-sm-0 col-xs-0"></div>
+          <div class="col-md-2 col-sm-2 col-xs-2">
+            <!-- <img src="images/paria1.png" class="PariaImage"> -->
+          </div>
+          <p class="text-justify Des text-center">
+            <a
+              role="button"
+              class="btn btn-secondary"
+              href="images/UX.pdf"
+              download="PariaCV"
+              >Download My CV</a
+            >
+          </p>
+        </div>
+      </div>
+      <!-- <p class="hello text-center">I'm Paria Majidi</p>
 <div class="container">
 	<div class="row">
 		<div class="col-md-1 col-sm-0 col-xs-0"></div>
@@ -118,114 +131,154 @@
 		<div class="col-md-1 col-sm-0 col-xs-0"></div>
 	</div>
 </div> -->
-</div>
-<div class="container">
-	<div class="eduTop">
-		
-			<p class="TitleTop">UX Projects</p>
-			
-	</div>
-</div>
-<div class="eduBack">
-<div class="container">
-	<div class="row">
-		<div class="col-md-8 col-sm-12 col-xs-12">
-			<p class="TitleUX">
-				<img src="images/fundraise.png" class="LogoUX">A crowdfunding website evaluation
-			</p>
-			<p class="SubTitleUX">
-				A UX evaluation and recommendations of a crowdfunding website
-			</p>
-			<ul class="ulbull">
-				<li> Conducted moderated remote usability tests. </li>
-				<li> Collected data from Pre-test, Post-test questionnaire and Think aloud technique.</li>
-				<li> Created Scenarios and tasks reflecting the company’s personas and objectives</li>
-				<li> Conducted System Usability Scale (SUS) and documented results.</li>
-				<li> Analyzed quantitative data with SPSS.</li>
-				<li> Presented results and analysis in a clear and concise manner.</li>
-				<li> Provided step-by-step recommendations and solutions.</li>
-				<li> Created a prototype of the recommendations with” Adobe-XD” software.</li>
-			</ul>
-			
-		</div>
+    </div>
+    <div class="container">
+      <div class="eduTop">
+        <p class="TitleTop">UX Projects</p>
+      </div>
+    </div>
+    <div class="eduBack">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-12 col-xs-12">
+            <p class="TitleUX">
+              <img src="images/fundraise.png" class="LogoUX" />A crowdfunding
+              website evaluation
+            </p>
+            <p class="SubTitleUX">
+              A UX evaluation and recommendations of a crowdfunding website
+            </p>
+            <ul class="ulbull">
+              <li>Conducted moderated remote usability tests.</li>
+              <li>
+                Collected data from Pre-test, Post-test questionnaire and Think
+                aloud technique.
+              </li>
+              <li>
+                Created Scenarios and tasks reflecting the company’s personas
+                and objectives
+              </li>
+              <li>
+                Conducted System Usability Scale (SUS) and documented results.
+              </li>
+              <li>Analyzed quantitative data with SPSS.</li>
+              <li>
+                Presented results and analysis in a clear and concise manner.
+              </li>
+              <li>Provided step-by-step recommendations and solutions.</li>
+              <li>
+                Created a prototype of the recommendations with” Adobe-XD”
+                software.
+              </li>
+            </ul>
+          </div>
 
-		<div class="col-md-0 col-sm-0 col-xs-0">
-			
-		</div>
-		<div class="col-md-4 col-sm-12 col-xs-12">
-			<img src="images/Crowd.png" class="UXPhoto">
-		</div>
-<P class="text-justify Des text-center"><a href="Crowdfunding.html" role="button" class="btn btn-secondary read">Read More</a></P>
-<div class="container borderTop">
-	<div class="row">
-
-		<div class="col-md-8 col-sm-0 col-xs-0">
-			<p class="TitleUX">
-				<img src="images/contact-form.png" class="LogoUX">A university admission form evaluation
-			</p>
-			<p class="SubTitleUX">
-				A UX evaluation and recommendations of a crowdfunding website
-			</p>
-			<ul class="ulbull">
-				<li> Conducted heurist evaluation for the website </li>
-				<li> Moderated in person user experience testing.</li>
-				<li> Collected data with online survey, think aloud and interview.</li>
-				<li> Represented the strength and weaknesses of the website.</li>
-				<li> Provided step-by-step recommendations.</li>
-				<li> Conducted System Usability Scale (SUS) and documented results.</li>
-				<li> Presented collected data and analysis in a clear way.</li>
-				
-			</ul>
-			
-		</div>
-		<div class="col-md-0 col-sm-0 col-xs-0">
-			
-		</div>
-		<div class="col-md-4 col-sm-2 col-xs-2">
-			<img src="images/admission.png" class="UXPhoto">
-		</div>
-
-	</div>
-</div>
-<P class="text-justify Des text-center"><a href="AdmissionForm.html" role="button" class="btn btn-secondary read">Read More</a></P>
-	<div class="container borderTop">
-	<div class="row">
-
-		<div class="col-md-8 col-sm-0 col-xs-0">
-			<p class="TitleUX">
-				<img src="images/heart.png" class="LogoUX">Healthypal Application
-			</p>
-			<p class="SubTitleUX">
-				A UX evaluation and redesign of a health platform
-			</p>
-			<ul class="ulbull">
-				<li> Redesigned the app to help users follow a one-month diet and workout plan </li>
-				<li>  Used value management, user research, card sorting and other UX methods.</li>
-				<li> Created design concepts/wireframes and final pixel perfect UI designs by using 
-					multiple tools including Balsamiq, InVision and Sketch. </li>
-				<li> Worked in an agile environment and engaged development team during the build process.</li>
-				<li> Reviewed the current mobile functionality to identify improvements.</li>
-				<li>Conducted usability testing and defined strength and weak points.</li>
-				<li> Incorporated gamification elements into the project.</li>
-				
-			</ul>
-			
-		</div>
-		<div class="col-md-0 col-sm-0 col-xs-0">
-			
-		</div>
-		<div class="col-md-4 col-sm-2 col-xs-2">
-			<img src="images/HealthyPalUX.png" class="UXPhoto">
-		</div>
-
-	</div>
-</div>
-<P class="text-justify Des text-center"><a role="button" class="btn btn-secondary read">Read More</a></P>
-</div>
-
-</div>
-</div>
-<!-- <div class="exBack">
+          <div class="col-md-0 col-sm-0 col-xs-0"></div>
+          <div class="col-md-4 col-sm-12 col-xs-12">
+            <img src="images/Crowd.png" class="UXPhoto" />
+          </div>
+          <p class="text-justify Des text-center">
+            <a
+              href="Crowdfunding.html"
+              role="button"
+              class="btn btn-secondary read"
+              >Read More</a
+            >
+          </p>
+          <div class="container borderTop">
+            <div class="row">
+              <div class="col-md-8 col-sm-0 col-xs-0">
+                <p class="TitleUX">
+                  <img src="images/contact-form.png" class="LogoUX" />A
+                  university admission form evaluation
+                </p>
+                <p class="SubTitleUX">
+                  A UX evaluation and recommendations of a crowdfunding website
+                </p>
+                <ul class="ulbull">
+                  <li>Conducted heurist evaluation for the website</li>
+                  <li>Moderated in person user experience testing.</li>
+                  <li>
+                    Collected data with online survey, think aloud and
+                    interview.
+                  </li>
+                  <li>
+                    Represented the strength and weaknesses of the website.
+                  </li>
+                  <li>Provided step-by-step recommendations.</li>
+                  <li>
+                    Conducted System Usability Scale (SUS) and documented
+                    results.
+                  </li>
+                  <li>Presented collected data and analysis in a clear way.</li>
+                </ul>
+              </div>
+              <div class="col-md-0 col-sm-0 col-xs-0"></div>
+              <div class="col-md-4 col-sm-2 col-xs-2">
+                <img src="images/admission.png" class="UXPhoto" />
+              </div>
+            </div>
+          </div>
+          <p class="text-justify Des text-center">
+            <a
+              href="AdmissionForm.html"
+              role="button"
+              class="btn btn-secondary read"
+              >Read More</a
+            >
+          </p>
+          <div class="container borderTop">
+            <div class="row">
+              <div class="col-md-8 col-sm-0 col-xs-0">
+                <p class="TitleUX">
+                  <img src="images/heart.png" class="LogoUX" />Healthypal
+                  Application
+                </p>
+                <p class="SubTitleUX">
+                  A UX evaluation and redesign of a health platform
+                </p>
+                <ul class="ulbull">
+                  <li>
+                    Redesigned the app to help users follow a one-month diet and
+                    workout plan
+                  </li>
+                  <li>
+                    Used value management, user research, card sorting and other
+                    UX methods.
+                  </li>
+                  <li>
+                    Created design concepts/wireframes and final pixel perfect
+                    UI designs by using multiple tools including Balsamiq,
+                    InVision and Sketch.
+                  </li>
+                  <li>
+                    Worked in an agile environment and engaged development team
+                    during the build process.
+                  </li>
+                  <li>
+                    Reviewed the current mobile functionality to identify
+                    improvements.
+                  </li>
+                  <li>
+                    Conducted usability testing and defined strength and weak
+                    points.
+                  </li>
+                  <li>Incorporated gamification elements into the project.</li>
+                </ul>
+              </div>
+              <div class="col-md-0 col-sm-0 col-xs-0"></div>
+              <div class="col-md-4 col-sm-2 col-xs-2">
+                <img src="images/HealthyPalUX.png" class="UXPhoto" />
+              </div>
+            </div>
+          </div>
+          <p class="text-justify Des text-center">
+            <a role="button" class="btn btn-secondary read">Read More</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="exBack">
 <div class="container">
 	<div class="row exTop">
 		<div class="col-md-4 col-sm-0 col-xs-0"></div>
@@ -426,18 +479,17 @@ of Exceptional Talents, Iran</li></ul>
 		<div class="col-md-3 col-sm-0 col-xs-0"></div>
  -->
 
- 	<div class="footGray">
- 		<a href="https://twitter.com/paryamajidi"><img src="images/twitter.png" class="LogoFoot"></a>
- 		<a href="https://www.linkedin.com/in/paria-majidi/"><img src="images/linkedin.png" class="LogoLinkedin"></a>
- 			<p class="textFoot">
- 			Copyright © 2020 Paria Majidi.</br>
-			All rights reserved.
-			</p>
- 	</div>
- 
-
-
-	
-</body>
+    <div class="footGray">
+      <a href="https://twitter.com/paryamajidi"
+        ><img src="images/twitter.png" class="LogoFoot"
+      /></a>
+      <a href="https://www.linkedin.com/in/paria-majidi/"
+        ><img src="images/linkedin.png" class="LogoLinkedin"
+      /></a>
+      <p class="textFoot">
+        Copyright © 2020 Paria Majidi.<br />
+        All rights reserved.
+      </p>
+    </div>
+  </body>
 </html>
-
