@@ -26,6 +26,8 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
 
     <script type="text/javascript" src="js/scripts.js"></script>
+    <script type="text/javascript" src="js/page-1.js"></script>
+
   </head>
 
   <body>
@@ -34,34 +36,38 @@
         <a href="/" class="logocursor"> PARIA MAJIDI</a>
       </h1>
     </nav>
-    <div class="intro">
+    <div class="intro py-5">
       <div class="container">
-        <div class="d-flex flex-column flex-md-row align-items-center">
-          <p class="pr-2">
-            Hi, my name is Paria.<br />
-            An international UX designer and researcher with an engineering
-            background. I am passionate about helping people with accessibility
-            needs, the elderly and, children confidently navigate the digital
-            world.
-            <br />
-            As a master student at École de Technologie Supérieure (Montréal,
-            Canada), I worked on the User Experience of multiple haptic devices.
-            <br />
-            I worked on the User Experience of multiple haptic devices. Over the
-            past 4 years, I worked in the UX area both in academic and industry.
-          </p>
+        <div class="d-flex flex-column-reverse flex-md-row align-items-center">
+          <div>
+            <p>
+              Hi, my name is Paria.<br />
+              An international UX designer and researcher with an engineering
+              background. I am passionate about helping people with
+              accessibility needs, the elderly and, children confidently
+              navigate the digital world.
+              <br />
+              As a master student at École de Technologie Supérieure (Montréal,
+              Canada), I worked on the User Experience of multiple haptic
+              devices.
+              <br />
+              I worked on the User Experience of multiple haptic devices. Over
+              the past 4 years, I worked in the UX area both in academic and
+              industry.
+            </p>
+            <p class="text-center text-md-left intro-buttons">
+              <a
+                role="button"
+                class="btn btn-secondary"
+                href="assets/cv.pdf"
+                download="PariaCV"
+                target="_blank"
+                >Download My CV</a
+              >
+            </p>
+          </div>
           <img src="images/paria.png" class="intro-image" />
         </div>
-        <p class="text-center text-md-left">
-          <a
-            role="button"
-            class="btn btn-secondary"
-            href="assets/cv.pdf"
-            download="PariaCV"
-            target="_blank"
-            >Download My CV</a
-          >
-        </p>
       </div>
     </div>
     <!-- <p class="hello text-center">I'm Paria Majidi</p>
@@ -109,22 +115,42 @@
               </li>
               <li>Used Haptic User Experience Methodologies</li>
             </ul>
-            <a
-              href="Crowdfunding.html"
-              role="button"
-              class="btn btn-secondary call-to-action"
-              >Read More</a
-            >
+            <p class="call-to-action-container-2">
+              <button
+                role="button"
+                class="btn btn-secondary call-to-action"
+                id="askForEmailButton"
+              >
+                Read More
+              </button>
+              <form id="askForEmailForm" action="https://formspree.io/f/myyoyaqe"
+              method="POST">
+                <div class="request">
+                  This project is currently confidential but I can send you a presentation by email.
+                </div>
+                <input class="request-input" type="email" placeholder="Email" name="_replyto" />
+                <button
+                  role="button"
+                  type="submit"
+                  class="btn btn-secondary call-to-action"
+                  id="askForEmailSubmit"
+                >
+                  Request
+                </button>
+              </form>
+              <div id="askForEmailFeedback" class="feedback">
+                Your request has been transfered. I will send you the presentation soon.
+              </div>
+              
+            </p>
           </div>
 
-          <div class="col-md-0 col-sm-0 col-xs-0"></div>
           <div class="col-md-4 col-sm-12 col-xs-12">
             <img
               src="images/projects/master.jpeg"
               class="UXPhoto master-photo"
             />
           </div>
-          <p class="text-justify Des text-center"></p>
         </div>
       </div>
     </div>
@@ -142,7 +168,7 @@
                 <h4 class="section-subtitle">
                   A UX evaluation and redesign of a health platform
                 </h4>
-                <div class="section-date">January 2017</div>
+                <div class="section-date">August 2016 - September 2018</div>
               </div>
             </div>
             <ul class="section-list">
@@ -178,7 +204,7 @@
           <div class="col-md-4 col-sm-2 col-xs-2">
             <img src="images/HealthyPalUX.png" class="UXPhoto" />
           </div>
-          <p class="text-justify Des text-center">
+          <p class="text-justify Des text-center call-to-action-container">
             <a
               role="button"
               class="btn btn-secondary call-to-action"
@@ -201,9 +227,9 @@
                   A university admission form evaluation
                 </h3>
                 <h4 class="section-subtitle">
-                  A UX evaluation and recommendations of a crowdfunding website
+                  A UX evaluation and recommendations of a university website
                 </h4>
-                <div class="section-date">January 2017</div>
+                <div class="section-date">January 2020</div>
               </div>
             </div>
             <ul class="section-list">
