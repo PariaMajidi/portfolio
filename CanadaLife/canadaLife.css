@@ -1,0 +1,157 @@
+:root {
+  --canadaLife: #A20B29;
+  --canadaLife-hue1: #838271;
+  --grey: #D9D9D9;
+}
+
+.logocursor-dark {
+  color: var(--canadaLife) !important;
+}
+
+.intro-light {
+  color: var(--canadaLife) !important;
+  font-weight: thin;
+}
+
+.introCanadaLife {
+  font-size: 35px;
+  color: var(--canadaLife) !important;
+  font-weight: bold;
+}
+
+.introCanadaLifeLogo { 
+  width: 13rem;
+  margin-bottom: 1rem;
+}
+
+.introCanadaLifeDescription {
+  font-size: 20px;
+  color: var(--canadaLife) !important;
+  font-weight: bold;
+}
+
+.introCanadaLifeDate {
+  font-size: 20px;
+  color: var(--canadaLife-hue1) !important;
+  font-weight: bold;
+}
+
+.team, .section-dark {
+  background-color: var(--canadaLife) !important;
+  color: white !important;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.section-light {
+  background-color: white !important;
+  /* color: var(--canadaLife) !important; */
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.sectionTitle {
+  font-size: 2.3rem;
+  font-weight: bold !important;
+  margin-bottom: 2rem;
+}
+
+.sectionSubTitle {
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.section-light .sectionTitle {
+  color: var(--canadaLife) !important;
+}
+
+.teamImage {
+  width: 100%;
+  height: 100%;
+}
+
+.roleImage1 {
+  width: 100%;
+}
+
+.roleImageList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2rem;
+  position: relative;
+  width: 100%;
+}
+
+.roleImage2, .roleImage3 {
+  display: block;
+  width: 49%;
+}
+
+.roleTitle {
+  font-size: 2.3rem;
+  font-weight: bold !important;
+  color: var(--canadaLife) !important;
+}
+
+.role {
+  margin-top: 5rem;
+}
+
+.role ul {
+  padding-inline-start: 1rem;
+}
+
+.caseStudyImage {
+  width: 100%;
+}
+
+strong {
+  font-size: 1.4rem;
+}
+
+.how-started, .old-design {
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+  margin-top: 2rem;
+}
+
+.separator {
+  /* width: 100%; */
+  height: 2px;
+  background-color: var(--canadaLife);
+  max-width: 90%;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.how-started-list {
+  padding-inline-start: 0rem;
+
+  li:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+}
+
+.howStartedImage, .oldDesignImage {
+  width: 100%;
+}
+
+.defining-problem {
+  background-color: var(--grey) !important;
+  height: 100%;
+  padding: 2rem;
+}
+
+.definining-problem-title {
+  font-size: 1.4rem;
+}
+
+.research-recommendations {
+  li:not(:first-child) {
+    margin-top: 1rem;
+  }
+}
