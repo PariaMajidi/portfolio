@@ -157,3 +157,121 @@ strong {
     margin-top: 1rem;
   }
 }
+
+.subSection {
+  background-color: var(--grey) !important;
+  height: 100%;
+  padding: 2rem;
+}
+
+.ideaImageList {
+  display: flex; 
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.ideaImage {
+  flex: 1 1 auto;
+  min-width: 40%;
+}
+
+.marginTop { 
+  margin-top: 2rem;
+}
+
+.legend { 
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 0.6rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.legend-indicator {
+  background-color: var(--canadaLife) !important;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  aspect-ratio: 1;
+  border-radius: 999rem;
+}
+
+.legend-title + .legend-title {
+  margin-top: 1rem;
+}
+
+.legend-description {
+  font-size: 0.8rem;
+}
+
+.legend-footnote {
+  margin-top: 1rem;
+}
+
+.footnote {
+  margin-top: 4rem;
+  font-size: 1.2rem;
+}
+
+.workshopTableImage {
+  width: 100%;
+}
+
+.workshop-list {
+  list-style-type: square;
+  margin-top: 2rem;
+
+  li {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+
+
+.limitationList {
+  display: flex; 
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.limitationImage {
+  flex: 1 1 auto;
+  min-width: 40%;
+}
+
+.limitations {
+  padding: 1rem;
+  margin-top: 2rem;
+  border: 1px solid var(--canadaLife);
+}
+
+.limitations-title, .limitations-conclusion { 
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+}
+
+.limitations-title:not(:first-child), .limitations-conclusion { 
+  margin-top: 2rem;
+}
+
+.testing-title { 
+  margin-top: 2rem;
+}
+
+.padding-top {
+  padding-top: 2rem;
+  font-size: 1.2rem;
+}
+
+.figmaImage { 
+  width: 100%;
+}

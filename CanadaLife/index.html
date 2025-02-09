@@ -269,219 +269,329 @@
 			</div>	
 		</div>
 	</div>
-</div>
-
-<div class="container">
-	<div class="eduTop">
-		
-			<p class="TitleTop">Introduction</p>
-			<p style="margin:60px 0px 60px 0px; font-size:18px; text-align: justify;">
-				In the context of the <b class="BoldIntro">UX Evaluation course at HEC Montreal</b>, the student consultants conducted a <b class="BoldIntro">usability evaluation </b> and provided a 
-				set of <b class="BoldIntro">recommendations</b> to improve the user experience (UX) of a newly updated page of the website called rewards webpage.
-				The project is for an international crowdfunding platform where the majority of projects get funded. Their mission is to support creators
-				 throughout this process by helping them make their ideas a reality, co-create with their communities, spread the word about their projects
-				 and make them grow. 
-				What is crowdfunding? It’s the act of raising money from a large number of people who each contribute a relatively small amount and 
-				will get (optionally) a reward in exchange. Essentially, rewards are a sign of gratitude to donors.
-				As part of creating a project on the website, creators use the rewards web page to define what people will receive in exchange for their 
-				contribution. Except for vouchers, creators can create a variety of rewards. They must also define how rewards will be delivered. 
-				This is called delivery.
-			</p>
-			<p class="TitleTop">Evaluation Scope</p>
-	</div>		
-</div>
-<div class="BackGoal">
+	<div class="separator"></div>
 	<div class="container">
-		<p class="goal">Goals and Objectives</p>
-			<div  class="GoalPadd">
-			
-				<p>1.   Evaluate if the UI correctly onboards new users to define and create their rewards</p>
-				<p>2.   Evaluate if the distinction between rewards and delivery is understood by the user</p>
-				<p>3.   Evaluate if the user will create its rewards first or its delivery settings, and why?</p>
-
+		<div class="row align-items-center">
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<h2 class="sectionTitle">Ideating:</h2>
 			</div>
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<h3 class="sectionSubTitle">IDEA #1: MVP Design: Old design + New feature</h3>				
+			</div>
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<div class="subSection">
+					<div class="ideaImageList">
+						<img src="./assets/idea1-left.png" alt="Idea 1 step 1" class="ideaImage" />
+							<img src="./assets/idea1-right.png" alt="Idea 1 step 2" class="ideaImage" />
+					</div>
+					<div class="legend">
+						<div class="legend-indicator">1</div>
+						<div class="legend-text">
+							<div class="legend-title">
+								Duplications of the claims are very confusing. To be paid OR Paid?
+							</div>
+							<div class="legend-description">
+								One claim will be displayed in both tabs after it gets processed until 2 months
+							</div>
+						</div>
+					</div>
+					<div class="legend">
+						<div class="legend-indicator">2</div>
+						<div class="legend-text">
+							<div class="legend-title">
+								Pending claims appearing in processed claims are still confusing.
+							</div>
+							<div class="legend-description">
+								Pending claims also appear in processed claims
+							</div>
+						</div>
+					</div>
+					<div class="legend-footnote">
+						This design will be very quick to implement but won’t have a good user experience.
+					</div>
+				</div>
+			</div>
+			<div class="col-md-12 col-sm-12 col-xs-12 marginTop">
+				<h3 class="sectionSubTitle">IDEA #2: Interim Design : Revised old design + New feature</h3>				
+			</div>
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<div class="subSection">
+					<div class="ideaImageList">
+						<img src="./assets/idea2-left.png" alt="Idea 2 step 1" class="ideaImage" />
+							<img src="./assets/idea2-right.png" alt="Idea 2 step 2" class="ideaImage" />
+					</div>
+					<div class="legend">
+						<div class="legend-indicator">1</div>
+						<div class="legend-text">
+							<div class="legend-title">
+								Clarify the titles:
+							</div>
+							<div class="legend-description">
+								“Recent online” has changed to “In progress”
+							</div>
+						</div>
+					</div>
+					<div class="legend">
+						<div class="legend-indicator">2</div>
+						<div class="legend-text">
+							<div class="legend-title">
+								Avoid duplications of the claims
+							</div>
+							<div class="legend-description">
+								Claims after they get processed will be removed from in progress/recent online tab
+							</div>
+						</div>
+					</div>
+					<div class="legend">
+						<div class="legend-indicator">3</div>
+						<div class="legend-text">
+							<div class="legend-title">
+								Pending under in progress
+							</div>
+							<div class="legend-description">
+								Pending claims should not be considered as Processed
+							</div>
+						</div>
+					</div>
+					<div class="legend-footnote">
+						This idea requires a bit more time to implement. While the UX is not perfect, it’s reasonably acceptable
+					</div>
+				</div>
+			</div>
+			<div class="col-md-12 col-sm-12 col-xs-12 marginTop">
+				<h3 class="sectionSubTitle">IDEA #3: Target Design: New design + New feature</h3>				
+			</div>
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<div class="subSection">
+					<div class="ideaImageList">
+						<img src="./assets/idea3.png" alt="Idea 3 step 1" class="ideaImage" />
+					</div>
+					<div class="legend">
+						<div class="legend-indicator">1</div>
+						<div class="legend-text">
+							<div class="legend-title">
+								Merge all claims in one table
+							</div>
+							<div class="legend-description">
+								Recent online and In progress are merged. Ideally, more filtering options will be added to the top of the table.
+							</div>
+						</div>
+					</div>
+					<div class="legend-footnote">
+						Ideally, based on the mobile discovery we recommended to combine the tabs.
+					</div>
+					<div class="legend-footnote">
+						This idea is the ideal solution with the best possible UX, but it will take a significant amount of time to implement fully
+					</div>
+				</div>
+			</div>
+			<div class="col-md-12 col-sm-12 col-xs-12 footnote">
+				Question is which of these ideas should we choose? <strong>MVP, Interim OR Target</strong>
+			</div>
+		</div>
 	</div>
-</div>
-<div class="container">			
-			<p class="TitleTop">Test Procedure</p>
-			<div style="text-align: center;">
-				<img src="images/process.png" class="ImgProcedure">
+	<div class="separator"></div>
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<h2 class="sectionTitle">Summary of the workshops with technical team:</h2>
 			</div>
-			<div class="metrics">
-				<p class="TitleTop">Metrics</p>
-				
-				<div class="metricscontent">
-					<p style="font-weight: bold; font-size: 20px!important;margin-top:30px">Usefulness, Efficiency, Effectiveness and Satisfaction</p>
-					<div style="font-size: 18px!important; text-align: justify;">
-						<p><b>Usefulness</b> is defined as the “degree to which a product enables a user to achieve his or her goals”. It was measured through the web pages’ perceived ease of use by participants.</p>
-						<p><b>efficiency</b> was measured as the average time to perform a task and assessed based on issues observed during performance of the tasks.</p>
-						<p><b>effectiveness </b> was measured as the percentage of tasks successfully completed. </p>
-						<p><b> Satisfaction</b> was measured by the "Think Out Loud" comments shared during task scenarios and the post-study questionnaire. </p>
+			<div class="col-md-12 col-sm-12 col-xs-12">
+					<img src="./assets/workshop-table.png" alt="Workshop table" class="workshopTableImage" />		
+			</div>
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<ul class="workshop-list">
+					<li>
+						<strong>Target state</strong> needs almost <strong>double the time compared to Interim state</strong> which doesn’t meet the deadlines
+					</li>
+					<li>
+						<strong>Interim state</strong> can <strong>meet the deadline</strong> only if they implement it <strong>with some limitations</strong>				
+					</li>
+				</ul>	
+			</div>
+		</div>
+	</div>
+	<div class="separator"></div>
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<h2 class="sectionTitle">What is Interim state with some limitations?</h2>
+			</div>
+			<div class="col-md-12 col-sm-12 col-xs-12 limitationList">
+					<img src="./assets/limitations-left.png" alt="Limitation 1" class="limitationImage" />
+					<img src="./assets/limitations-right.png" alt="Limitation 2" class="limitationImage" />				
+			</div>
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<div class="limitations">
+					<div class="limitations-title">
+						Clarify the titles: ✔️
+					</div>
+					<div class="limitations-description">
+						“Recent online” has changed to “In progress”
+					</div>
+					<div class="limitations-title">
+						Avoid overlap ✔️
+					</div>
+					<div class="limitations-description">
+						Claims after they get processed will be removed from in progress/recent online tab
+					</div>
+					<div class="limitations-title">
+						Pending under in progress ❌
+					</div>
+					<div class="limitations-description">
+						Pending claims should not be considered as Processed
+					</div>
+					<div class="limitations-conclusion">
+						Given the deadline, they were unable to deliver the final item
 					</div>
 				</div>
 			</div>
-			<div style="border-top: 2px solid rgba(201, 123, 99, 0.48)!important;">
-				<p class="TitleTop">Tasks and Results</p>
+		</div>
+	</div>
+	<div class="separator"></div>
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<h2 class="sectionTitle">Testing</h2>
+			</div>
+			<div class="col-md-12 col-sm-12 col-xs-12">
 				<div>
-
-				
-					
-					
-					<p style="margin-top:60px; font-size: 18px;"> Two scenarios designed to be tested with 12 participants. </p>
-
-					<table class="tableresult">
-					  <tr>
-					  	<th>TASKS</th>
-					    <th>SUCCESS RATE</th>
-					    <th>FAILED</th>
-					    <th>AVR TIME TO PERFORM TASK SUCCESSFULLY</th>
-					    
-					  </tr>
-					  <tr>
-					    <td>1- Sign In</td>
-					    <td>11/12 (91.6%) </td>
-					    <td>1</td>
-					    <td>00:32</td>
-					  </tr>
-					  <tr>
-					    <td>2- Find Project</td>
-					    <td>9/12 (75%) </td>
-					    <td>3</td>
-					    <td>00:30</td>
-					  </tr>
-					  <tr>
-					    <td>3- Find Rewards</td>
-					    <td>12/12 (100%) </td>
-					    <td>0</td>
-					    <td>00:08</td>
-					  </tr>
-					  <tr>
-					    <td>4- Use Feature</td>
-					    <td>12/12 (100%) </td>
-					    <td>0</td>
-					    <td>-</td>
-					  </tr>
-					  <tr>
-					    <td>4- Sign Out</td>
-					    <td>12/12 (100%) </td>
-					    <td>0</td>
-					    <td>00:08</td>
-					  </tr>
-					</table>
-				</div>
-
-
+					<p>
+						Methodology: <strong>Moderated Usability Study</strong> / Combination of navigation and content feedback questions
+					</p>
+					<p>
+						/ Conducted on <strong>Microsoft Teams</strong> / Participants from Member Panel – people who have Canada Life workplace benefits and have submitted online health claims in the past 3 months / <strong>10 testers</strong>
+					</p>
+					<p>
+					/ Canadians between age 40-65 years
+					</p>
+				</div>			
 			</div>
-
-			<div style="border-top: 2px solid rgba(201, 123, 99, 0.48)!important;margin-top:60px">
-			<p class="TitleTop">Post-Test Survey</p>
-		
-			<p style="margin-top:60px; font-size: 18px"> <b class="BoldIntro">1: </b> Using System Usability Scale (SUS), represents how usable and learnable a website is, the score showed the website is oing OK, but still there is room for improvement. </p>
-
-			<div style="text-align: center;">
-				<img src="images/SUS.png" class="ImgProcedure">
-			</div>
-
-				<div style="font-size: 18px;">
-				<p > <b class="BoldIntro">2: </b> Some questions after the SUS questions were asked to answer the second goal of the study. </p>
-			<div style="margin-left: 30px">
-				<p><b class="BoldIntro"> The difference between Rewards and Delivery</b>  </p>
-					<p>67% Agreed the difference between Rewards and Delivery is clear.</p> 
-				<p><b class="BoldIntro">he difference between Global Delivery and Custom Delivery </b></p>
-				<p> 66% were neutral about the difference between Global Delivery and Custom Delivery or they were completely disagree that the difference was clear enough.</p>
-				</div>
-			</div>
-			</div>
-			<!-- <div class="col-md-12 BackGoal" style="margin-top: 100px;">
-				<p class="goal">Final Overview Of the UX Evaluation</p>
-				<div class="container">
-					<div class="row">
-				
-							
-								<div class="col-md-6">
-									<p class="goal">The Good</p>
-									<div class="Overview">
-										<p>User Friendly</p>
-										<p>Simplicity</p>
-										<p>Cool Platform</p>
-									</div>
-								</div>
-								<div class="col-md-6">
-									<p class="goal">Could be better</p>
-									<div class="Overview">
-										<p>User Effort</p>
-										<p>Clarity</p>
-										<p>Fmiliarity</p>
-									</div>
-								</div>
-						
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<div class="subSection">
+					<div class="ideaImageList">
+						<img src="./assets/testing-left.png" alt="Testing 1" class="ideaImage" />
+						<img src="./assets/testing-right.png" alt="Testing 2" class="ideaImage" />	
 					</div>
-				</div>		
-			</div> -->
-		
-			<!-- <div class="BackGoal" style="margin:100px 0px 100px 0px;">
-				<div class="col-md-12">
-					<p class="goal">Final Overview </p>
-					<div class="container">
-						<div class="row">
-							<div class="col-md-6">
-								<p class="goalOverview">The Good</p>
-									<div class="Overview">
-										<p>User Friendly</p>
-										<p>Simplicity</p>
-										<p>Cool Platform</p>
-									</div>
+					<div class="testing-title">
+						Summary of critical usability issues: (Defining)
+					</div>
+					<div class="legend">
+						<div class="legend-indicator">1</div>
+						<div class="legend-text">
+							<div class="legend-title">
+								We validated that the limitations in Interim state bring confusion for users.  This means:
+ 								<br/>The Pending claims need to be displayed in in-progress tab.
 							</div>
-							<div class="col-md-6">
-								<p class="goalOverview">Could be better</p>
-									<div class="Overview">
-										<p>User Effort</p>
-										<p>Clarity</p>
-										<p>Fmiliarity</p>
-									</div>
+							<div class="legend-title">
+								<em>“I don’t understand why pending is in processed claims”</em>
 							</div>
 						</div>
 					</div>
-				</div>
-			</div> -->
-
-			<div style="border-top: 2px solid rgba(201, 123, 99, 0.48)!important;margin-top:60px">
-			<p class="TitleTop">Final Overview</p>
-			<div class="col-md-12">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-1">
-						</div>
-						<div class="col-md-5 good" style="background-color: #37464F">
-							<div class="row"><div class="GoodTitle"><p style="padding-top:5px">The Good</p></div></div>
-							<div style="margin: 0 auto;width: 175px;">
-								<p><img src="images/arrow.png" class="arrow">User Friendly</p>
-								<p><img src="images/arrow.png" class="arrow">Simplicity</p>
-								<p><img src="images/arrow.png" class="arrow">Cool Platform</p>
+					<div class="legend">
+						<div class="legend-indicator">2</div>
+						<div class="legend-text">
+							<div class="legend-title">
+								We also learnt that users had concerns about meaning and position of deferred claim status.<br/>
+								Clarify meaning of deferred as it was confusing for users
+							</div>
+							<div class="legend-title">
+								<em>“Deferred, I am not 100% sure maybe just when the system is down and will be processed later. Pending and maybe Deferred should be under in progress”</em>
 							</div>
 						</div>
-						<div class="col-md-5 bad" style="background-color: #FFAB91">
-							<div class="row"><div class="BadTitle"><p style="padding-top:5px">Could be better</p></div></div>
-							<div style="margin: 0 auto;width: 175px;">
-								<p><img src="images/arrow.png" class="arrow">User Effort</p>
-								<p><img src="images/arrow.png" class="arrow">Clarity</p>
-								<p><img src="images/arrow.png" class="arrow">Fmiliarity</p>
+					</div>
+					<div class="legend">
+						<div class="legend-indicator">3</div>
+						<div class="legend-text">
+							<div class="legend-title">
+								Merge the two tabs into one table or consider moving processed and in progress tab closer to the table, to make it easier for users toggle between tabs.
 							</div>
 						</div>
-						<div class="col-md-1">
+					</div>
+					<div class="legend">
+						<div class="legend-indicator">4</div>
+						<div class="legend-text">
+							<div class="legend-title">
+								Consider providing sorting option for the submitted claims to make it easier for users to look for previous claims.
+							</div>
+						</div>
+					</div>
+					<div class="legend">
+						<div class="legend-indicator">5</div>
+						<div class="legend-text">
+							<div class="legend-title">
+								Showing $0 “paid” and “to be paid” under processed and in progress tabs confused users
+								Change the Paid status to something else when the amount is $0
+														</div>
 						</div>
 					</div>
 				</div>
+
 			</div>
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<p class="padding-top">
+					This test once again confirmed the limitations of the interim state, highlighting critical usability issues. It reinforces that implementing the target design is the ideal solution
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="separator"></div>
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<h2 class="sectionTitle">Design Delivery on Figma</h2>
+			</div>
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<img src="./assets/figma.png" alt="Figma" class="figmaImage" />
+			</div>
+		</div>
+	</div>
+	<div class="separator"></div>
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<h2 class="sectionTitle">The impact:</h2>
+			</div>
+			<div class="col-md-6 col-sm-12 col-xs-12">
+				<div class="subSection">
+					<h3>
+						Call Centre:
+					</h3>
+
+				The phone calls to the call centre
+regarding the claim history decreased 32% over the 3 months
+					</div>
+			</div>
+			<div class="col-md-6 col-sm-12 col-xs-12">
+				<div class="subSection">
+					<h3>Qualitrics</h3> 
+				Not satisfied comments decreased 37% and satisfied comments increased 7%.
+					</div>
+			</div>
+		</div>
+	</div>
+	<div class="separator"></div>
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<h2 class="sectionTitle">Next steps and my learnings:</h2>
+			</div>
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<p>
+					I learned that, in reality, we cannot always design and implement the ideal situation for users. We may need to focus on a design that is more effective in the long term, allowing for future improvements and iterations. While there may be some limitations in the initial stage, we recognize that this foundation will ultimately lead us to the ideal design we are striving for.
+				</p>
+				<p>	
+					For next steps, the team will remove the Interim state limitations and eventually will merge all the tables and implement the Target design.				</p>
 			</div>
 		</div>
 	</div>
 </div>
 
 
+
 <div class="footGray">
- 		<a href="https://twitter.com/paryamajidi"><img src="images/twitter.png" class="LogoFoot"></a>
- 		<a href="https://www.linkedin.com/in/paria-majidi/"><img src="images/linkedin.png" class="LogoLinkedin"></a>
+ 		<a href="https://twitter.com/paryamajidi"><img src="../images/twitter.png" class="LogoFoot"></a>
+ 		<a href="https://www.linkedin.com/in/paria-majidi/"><img src="../images/linkedin.png" class="LogoLinkedin"></a>
  			<p class="textFoot">
  			Copyright © 2020 Paria Majidi.</br>
 			All rights reserved.
