@@ -1,6 +1,6 @@
 $(document).ready(function () {
   var secured = false
-  $('#askPasswordModal').modal({ backdrop: 'static' })
+  // $('#askPasswordModal').modal({ backdrop: 'static' })
 
   $('#askPasswordModal').on('hidden.bs.modal', function () {
     if (secured) return
@@ -22,15 +22,7 @@ $(document).ready(function () {
     }
   })
 
-  // $('#openCanadaLife').click(function () {
-  //   if ($('#password').val() === 'CanadaLife') {
-  //     secured = true
-  //     $('#askPasswordModal').modal('hide')
-  //     $.get('canadaLife-private.html').then(data => {
-  //       $('#secure').append(data)
-  //     })
-  //   } else {
-  //     $('#passwordError').show()
-  //   }
-  // })
+  $.get('canadaLife-private.html').then(data => {
+    $('#secure').append(data)
+  })
 })

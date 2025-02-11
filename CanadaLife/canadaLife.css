@@ -171,6 +171,12 @@ strong {
   /* padding: 2rem; */
 }
 
+.grey {
+    background-color: var(--grey) !important;
+    height: 100%;
+    padding: 2rem;
+}
+
 .ideaImageList {
   display: flex; 
   flex-direction: row;
