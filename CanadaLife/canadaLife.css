@@ -1,7 +1,7 @@
 :root {
   --canadaLife: #A20B29;
   --canadaLife-hue1: #838271;
-  --grey: #D9D9D9;
+  --grey: #F0F0EF;
 
   font-size: 18px;
 }
@@ -59,10 +59,11 @@
 }
 
 .sectionSubTitle {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   line-height: 1.7rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  color: var(--canadaLife);
 }
 
 .section-light .sectionTitle {
@@ -93,13 +94,13 @@
 }
 
 .roleTitle {
-  font-size: 2.3rem;
+  font-size: 1.2rem;
   font-weight: bold !important;
   color: var(--canadaLife) !important;
 }
 
 .role {
-  margin-top: 5rem;
+  margin-top: 1rem;
 }
 
 .role ul {
@@ -115,7 +116,7 @@ strong {
 }
 
 .how-started, .old-design {
-  font-size: 1.5rem;
+  font-size: 18px;
   line-height: 1.7rem;
   margin-top: 2rem;
 }
@@ -136,6 +137,12 @@ strong {
   li:not(:last-child) {
     margin-bottom: 1rem;
   }
+}
+.defining-problem-title {
+  font-size: 1.2rem;
+  color: var(--canadaLife) !important;
+  font-weight: bold !important;
+
 }
 
 .howStartedImage, .oldDesignImage {
@@ -159,9 +166,9 @@ strong {
 }
 
 .subSection {
-  background-color: var(--grey) !important;
+  /* background-color: var(--grey) !important; */
   height: 100%;
-  padding: 2rem;
+  /* padding: 2rem; */
 }
 
 .ideaImageList {
@@ -175,6 +182,13 @@ strong {
 .ideaImage {
   flex: 1 1 auto;
   min-width: 40%;
+}
+
+.ideaImage3 {
+  flex: none;
+  display: block;
+  max-width: 400px;
+  margin: auto;
 }
 
 .marginTop { 
@@ -274,4 +288,16 @@ strong {
 
 .figmaImage { 
   width: 100%;
+}
+
+.popup-wallpaper {
+
+}
+
+.btn-primary {
+  color: #102027 !important;
+  background-color: var(--grey) !important;
+  border-color: #707070 !important;
+  border: dashed 2px !important;
+  border-radius: 0 !important;
 }
