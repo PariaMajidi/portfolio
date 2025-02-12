@@ -277,6 +277,10 @@ body {
   margin-top: 30px;
   padding-top: 30px;
 }
+
+.top {
+  margin-top: 30px;
+}
 .read {
   color: #102027 !important;
   background-color: #ffab91 !important;
@@ -555,4 +559,14 @@ body {
 
 .request-input {
   padding: 3px 5px;
+}
+
+.canadalifeContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.canadalifeLogo { 
+  width: 90%;
 }

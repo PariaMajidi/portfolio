@@ -166,6 +166,7 @@ strong {
 }
 
 .subSection {
+  position: relative;
   /* background-color: var(--grey) !important; */
   height: 100%;
   /* padding: 2rem; */
@@ -178,9 +179,11 @@ strong {
 }
 
 .ideaImageList {
+  position: relative;
+  width: 100%;
   display: flex; 
   flex-direction: row;
-  align-items: stretch;
+  align-items: flex-start;
   justify-content: space-between;
   gap: 1rem;
 }
