@@ -1,6 +1,6 @@
 $(document).ready(function () {
   var secured = false
-  // $('#askPasswordModal').modal({ backdrop: 'static' })
+  $('#askPasswordModal').modal({ backdrop: 'static' })
 
   $('#askPasswordModal').on('hidden.bs.modal', function () {
     if (secured) return
@@ -20,9 +20,5 @@ $(document).ready(function () {
     } else {
       $('#passwordError').show()
     }
-  })
-
-  $.get('canadaLife-private.html').then(data => {
-    $('#secure').append(data)
   })
 })
