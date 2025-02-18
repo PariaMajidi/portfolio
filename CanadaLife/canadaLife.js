@@ -11,7 +11,7 @@ $(document).ready(function () {
 
   $('#formPassword').submit(function (e) {
     e.preventDefault()
-    if ($('#password').val() === 'CanadaLife') {
+    if ($('#password').val() === 'CanadaLife' || $('#password').val() === 'CLife25$Portfolio') {
       secured = true
       $('#askPasswordModal').modal('hide')
       $.get('canadaLife-private.html').then(data => {
